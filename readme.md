@@ -1,6 +1,6 @@
 # AUTHENTICATE REACT-NATIVE APPLICATION WITH AUTH0
 
-  This is a short and simple application for authenticating users in react native. Just follow below steps :
+  This is a short and simple application for authenticating users in react native. You'll get token back whic you can pass to the server for authorizing the user. Just follow below steps :
 
    - signup on auth0
 
@@ -66,6 +66,6 @@
 
             ```
             
-    - npm install react-native-auth and pass const auth0 = new Auth0({ domain: ${Domain}, clientId: ${ClientId} }) in **App.js**.
+  - npm install react-native-auth and pass const auth0 = new Auth0({ domain: ${Domain}, clientId: ${ClientId} }) in **App.js**.
     
-    - Go through **App.js** to have a look at code.
+  - Go through **App.js** to have a look at code.
